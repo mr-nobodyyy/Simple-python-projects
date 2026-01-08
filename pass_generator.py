@@ -1,3 +1,7 @@
+# Description:
+# This prigram tried to generate strong random password for the user conataining Uppercase,Lowercae Lettes , numbers as well as special characters .
+
+
 import random
 import string
 
@@ -33,3 +37,4 @@ passwd=gen_passwd(passwd)
 passwd = ''.join(random.sample(passwd, len(passwd)))
 
 print(f"Your random password is: {passwd}")
+
